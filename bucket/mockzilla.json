@@ -1,6 +1,6 @@
 {
     "version": "2.5.5",
-    "description": "Generate APIs with meaningful responses, configurable latency, error codes and more",
+    "description": "Generate API mocks with meaningful responses, configurable latency, error codes and more",
     "homepage": "https://mockzilla.github.io/mockzilla/",
     "license": "MIT",
     "architecture": {

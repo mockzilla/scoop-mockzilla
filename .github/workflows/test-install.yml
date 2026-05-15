@@ -1,0 +1,28 @@
+name: Test install
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'bucket/**'
+
+jobs:
+  install:
+    runs-on: windows-latest
+    steps:
+      - name: Install Scoop
+        shell: pwsh
+        run: |
+          Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+          Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+          "$env:USERPROFILE\scoop\shims" | Out-File -FilePath $env:GITHUB_PATH -Append
+
+      - name: Add bucket and install
+        shell: pwsh
+        run: |
+          scoop bucket add mockzilla "https://github.com/${{ github.repository }}"
+          scoop install mockzilla
+
+      - name: Verify binary runs
+        shell: pwsh
+        run: mockzilla --version
