@@ -1,6 +1,6 @@
 # Mockzilla Scoop Bucket
 
-[Scoop](https://scoop.sh) bucket for [Mockzilla](https://github.com/mockzilla) tools on Windows.
+[Scoop](https://scoop.sh) bucket for [Mockzilla](https://mockzilla.org/) tools on Windows.
 
 ## Usage
 
@@ -15,8 +15,8 @@ scoop install mockzilla
 scoop update mockzilla
 ```
 
-### Available manifests
+## Available manifests
 
-| Manifest | Description                                                                              |
-|----------|------------------------------------------------------------------------------------------|
-| [mockzilla](https://github.com/mockzilla/mockzilla) | Generate API mocks with meaningful responses, configurable latency, error codes and more |
+| Manifest | Description |
+|----------|-------------|
+| [mockzilla](https://github.com/mockzilla/mockzilla) | Open-source OpenAPI mock server. Serve realistic mock APIs locally or in CI from any OpenAPI spec. |
