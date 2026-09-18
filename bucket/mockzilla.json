@@ -1,16 +1,16 @@
 {
-    "version": "2.8.25",
+    "version": "2.8.26",
     "description": "Generate API mocks with meaningful responses, configurable latency, error codes and more",
     "homepage": "https://mockzilla.github.io/mockzilla/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mockzilla/mockzilla/releases/download/v2.8.25/mockzilla-v2.8.25-windows-amd64.exe#/mockzilla.exe",
-            "hash": "656b04bcc3cb149bbd8314cb99cb815083e9f634f75c7a7465673bcdd44c04ab"
+            "url": "https://github.com/mockzilla/mockzilla/releases/download/v2.8.26/mockzilla-v2.8.26-windows-amd64.exe#/mockzilla.exe",
+            "hash": "8fb22181a1f4452ba6df4d4f9f3f40ec443f2c57a0728e75a890081341ee4dd7"
         },
         "arm64": {
-            "url": "https://github.com/mockzilla/mockzilla/releases/download/v2.8.25/mockzilla-v2.8.25-windows-arm64.exe#/mockzilla.exe",
-            "hash": "33dc74c8c8158728437c662b07d272b399f85f665f0caaab4a01f2da57a16e71"
+            "url": "https://github.com/mockzilla/mockzilla/releases/download/v2.8.26/mockzilla-v2.8.26-windows-arm64.exe#/mockzilla.exe",
+            "hash": "e8f98369977afd2f60926709654464695406b0268e145ea76d31d0d881d365ea"
         }
     },
     "bin": "mockzilla.exe",
